@@ -1,6 +1,7 @@
 #include <iostream>
 
 int main() {
+  // Boolean is 8 bits
   bool greenLight{true};
   bool redLight{false};
 
