@@ -16,11 +16,13 @@ int main() {
   string employee4 = "Max";
   int employee4Age = 32;
 
-  cout << left;
+  cout << left; // Justify the output to the left
+
   cout << "This table is using iomanip lib: " << endl;
   cout << setw(10) << "Name";
   cout << setw(10) << "Age" << endl;
   cout << endl;
+
   // The iomanip lib table
   cout << setw(10) << employee1;
   cout << setw(10) << employee1Age << endl;
